@@ -1,4 +1,4 @@
-// // ASSESSMENT 1: Coding Conceptual Questions
+// // ASSESSMENT 1: Coding Conceptual Questionsn
 //
 // // Examine the following examples.
 //
@@ -58,6 +58,7 @@
 // const languages = ["JavaScript", "Ruby", "Python", "C++"]
 // const index = 1
 // console.log(languages[index])
+
 // //
 // // // a) Your answer: Ruby
 // // // b) Verify and explain: Terminal logged Ruby, because this is an array.
@@ -69,19 +70,38 @@
 //
 // // --------------------4) What will this log?
 //
+//
+// const weekendDays = ["saturday", "sunday"]
+// console.log(weekendDays.toUpperCase());
 
-const weekendDays = ["saturday", "sunday"]
-console.log(weekendDays.toUpperCase());
 
 //
-// // a) Your answer: I believe this will make the strings UpperCase, "Saturday", "Sunday"
-// // b) Verify and explain: The terminal said toUppercase is not a function.
+// // // a) Your answer: I believe this will make the strings UpperCase, "Saturday", "Sunday"
+// // // b) Verify and explain: The terminal said toUppercase is not a function.
+// toUppercase is for strings and returns the string with all lowercase letters converted to uppercase.
+//This is because to use it as an Array it required an index inside of the Array like below.
+//For example it made saturday uppercase to Saturday.
+//
+// const weekendDays = ["saturday", "sunday"]
+// console.log(weekendDays[0].toUpperCase())
+//
+// output is "Saturday"
+
+//const weekendDays = ["saturday", "sunday"]
+//console.log(weekendDays[1].toUpperCase())
+
+//output is "Sunday"
 //
 //
 // // --------------------5) What will this log?
 //
 // const dataTypes = ["number", "string", "Boolean"]
-// // console.log(typeof dataTypes.length)
+// console.log(typeof dataTypes.length)
+// //
+// // // a) Your answer: the array values can not be changed or modified, or the order.
+// So I believe it will give back "number", "string" "Boolean"
 //
-// // a) Your answer:
-// // b) Verify and explain:
+// // // b) Verify and explain: The output is "number" this is because typeof is a javascript variable that
+//will return the string when called. It is used to check variable code.
+//Length is the total number of elements which is contained in the array, which is "number" as it
+// returned all elements in the array.
