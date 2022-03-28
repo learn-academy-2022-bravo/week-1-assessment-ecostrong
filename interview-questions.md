@@ -12,7 +12,6 @@ INSTRUCTOR EXAMPLE: What is a conditional statement?
   Researched answer:
 
 
-
 1. What is git? What is the difference between git and Github?
 
 Your answer: Git is software used by web developers that can track file updates from multiple users.
@@ -145,7 +144,7 @@ Two reasons to use call back functions: To create asynchronous code in which you
 
 To create utility code that is flexible so it can be used in many situations with many different data types.
 
-2. Jest: Is a JavaScript testing Framework that is focused on simplicity for support for web applications. It is used to ensure correctness of any javascript. 
+2. Jest: Is a JavaScript testing Framework that is focused on simplicity for support for web applications. It is used to ensure correctness of any javascript.
 It was created by Facebook.
 Useful commands.
 $ yarn add jest

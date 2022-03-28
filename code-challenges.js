@@ -176,7 +176,6 @@ Code Worked!
  Use the test variable provided below.
 Expected output: "odd" "even" "odd" "even" "odd" "even"
 
-
 o create a statement to tell if the numbers in the array are even or odd
 o even or odd
 o even numbers 34, 10, 42
