@@ -150,15 +150,12 @@ Results: Code Worked!
 3,  7,  0, 36, -9, 8, -7, 42,  9, 13
 ]
 10
-
  --------------------3) Create the code that will reverse the letters of a string using the test variable provided below.
 Expected output: "1202 ovarB"
 
 o reverse the letters of a string "Bravo 2022"
 o return array and join
 o Result should be "1202 ovarB"
-
-
 const string = "Bravo 2022"
 const result = reverseString(string)
 function reverseString(str) {
@@ -197,7 +194,7 @@ Result=odd
 
 const myArray = [13, 34, 5, 10, 27, 42]
 let filtered = arr.filter((a,i)=>i%2===1)
-console.log(filtered)
+console.log(filtered) 
 
 Results=34,10,42
 gave back even numbers

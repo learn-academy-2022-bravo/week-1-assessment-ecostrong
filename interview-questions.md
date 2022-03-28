@@ -11,7 +11,6 @@ INSTRUCTOR EXAMPLE: What is a conditional statement?
 
   Researched answer:
 
-
 1. What is git? What is the difference between git and Github?
 
 Your answer: Git is software used by web developers that can track file updates from multiple users.
@@ -24,11 +23,9 @@ It helps with data integrity and speed. Git is a version control system that can
 GitHub is an online project repository hosting service that allows a team to work together on projects on the same codebase. Teams can pull a local version of the repository on GitHub. Once the code is committed, it can be pushed back up to the repository and add it to GitHub.
 
 
-
 2. Which JavaScript operators will return a Boolean value?
 
   Your answer: In JavaScript booleans return true or false values. Such as yes, or no.
-
 
 Researched answer:
 JavaScript uses two operators && And or || which are used for logical AND and OR operations.
@@ -154,6 +151,5 @@ $ yarn jest
 
 
 4. Method: A method performs a function or does an action. when you call a method you may need to pass one or more parameters to it by coding them within parentheses after the method name, separated by commas.
-
 
 5. Classes: Create objects, they provide a blue print for creating the objects. A class hold data and functions that manipulate data.They are resuable and customizable.
